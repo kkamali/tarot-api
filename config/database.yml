@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: rose_hunter_tarot_development
+  pool: 5
+  username: kathleenkamali
+  password:
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: rose_hunter_tarot_test
+  pool: 5
+  username: kathleenkamali
+  password:
+  timeout: 5000
